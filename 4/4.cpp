@@ -5,11 +5,23 @@ int main() {
     int t = 0;
     int n ;
 
+    //แก้ไขครั้งที่ 1 
     printf("Enter Number : ");
         scanf("%d", &n);
 
+        
+        while (n < 0) {
+            printf(" Negative Number ");
+            return 0;
+        }
+
         while (n == 0) {
-            printf("*");
+            printf(" ZERO ");
+            return 0;
+        }
+
+        while (n == 1) {
+            printf(" * ");
             return 0;
         }
 
